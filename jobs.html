@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Browse and filter thousands of open roles on CareerConnect." />
+<title>Explore Jobs | CareerConnect</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="css/styles.css" />
+<script src="js/app.js?v=saved-jobs-fix-20261025" defer></script>
+</head>
+<body>
+<input type="checkbox" id="menu-toggle" class="menu-check" />
+<header class="navbar">
+  <a class="brand" href="index.html" aria-label="CareerConnect home">
+    <span class="brand-mark"><i class="fa-solid fa-briefcase"></i></span>
+    <span>Career<span>Connect</span></span>
+  </a>
+  <nav class="desktop-nav">
+    <a href="index.html">Home</a><a href="jobs.html" class="active">Jobs</a><a href="companies.html">Companies</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+  </nav>
+  <div class="nav-actions">
+    <a class="btn btn-ghost nav-signin" href="login.html">Sign In</a>
+    <a class="btn btn-primary nav-register" href="register.html">Register</a>
+    <label for="menu-toggle" class="menu-toggle icon-btn" aria-label="Open menu"><i class="fa-solid fa-bars"></i></label>
+  </div>
+</header>
+<label for="menu-toggle" class="mobile-menu">
+  <a href="index.html">Home</a><a href="jobs.html">Jobs</a><a href="companies.html">Companies</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+  <a href="login.html">Sign In</a><a href="register.html">Register</a>
+</label>
+<main id="top">
+<section class="page">
+  <div class="container">
+    <div class="page-hero">
+      <span class="section-kicker">Your next move</span>
+      <h1>Explore open roles</h1>
+      <p>Find work that fits your skills, goals, and life.</p>
+    </div>
+    <div class="filters-layout">
+      <aside class="filter-panel">
+        <h3>Filter Jobs</h3>
+        <div class="filter-group"><label>Search</label><input placeholder="Title or keyword"></div>
+        <div class="filter-group"><label>Location</label><input placeholder="City or remote"></div>
+        <div class="filter-group"><label>Job Type</label>
+          <select><option value="">All types</option><option>Full-time</option><option>Remote</option><option>Hybrid</option><option>Onsite</option></select>
+        </div>
+        <div class="filter-group"><label>Industry</label><select><option value="">All industries</option><option>Analytics</option><option>Artificial Intelligence</option><option>Cloud Computing</option><option>Cybersecurity</option><option>Design</option><option>Technology</option></select></div>
+        <button class="btn btn-primary">Apply Filters</button>
+      </aside>
+      <div>
+        <div class="toolbar">
+          <span>Showing 8 jobs</span>
+          <select class="input" style="width:auto"><option>Sort by: Featured</option><option>Title A&ndash;Z</option><option>Company A&ndash;Z</option></select>
+        </div>
+        <div class="jobs-list">
+          <article class="wide-job">
+  <div><div class="logo-box">G</div></div>
+  <div>
+    <h3>Frontend Developer</h3>
+    <p><strong>Google</strong> &middot; Mountain View, CA</p>
+    <div class="meta"><span><i class="fa-solid fa-money-bill-wave"></i>$135k – $175k</span><span><i class="fa-solid fa-briefcase"></i>2–4 yrs</span><span><i class="fa-solid fa-house"></i>Full-time</span></div>
+    <p class="description">Build elegant interfaces used by millions of people and collaborate with a world-class product team.</p>
+    <div class="tags"><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">CSS</span></div>
+  </div>
+  <div class="card-footer">
+    <button class="icon-btn save-btn"><i class="fa-regular fa-bookmark"></i></button>
+    <a class="btn btn-primary" href="apply/frontend-developer-google.html">Apply</a>
+  </div>
+</article>
+<article class="wide-job">
+  <div><div class="logo-box">M</div></div>
+  <div>
+    <h3>Backend Developer</h3>
+    <p><strong>Microsoft</strong> &middot; Redmond, WA</p>
+    <div class="meta"><span><i class="fa-solid fa-money-bill-wave"></i>$125k – $165k</span><span><i class="fa-solid fa-briefcase"></i>3–5 yrs</span><span><i class="fa-solid fa-house"></i>Full-time</span></div>
+    <p class="description">Design scalable services and reliable APIs for the next generation of cloud products.</p>
+    <div class="tags"><span class="tag">Node.js</span><span class="tag">Azure</span><span class="tag">APIs</span></div>
+  </div>
+  <div class="card-footer">
+    <button class="icon-btn save-btn"><i class="fa-regular fa-bookmark"></i></button>
+    <a class="btn btn-primary" href="apply/backend-developer-microsoft.html">Apply</a>
+  </div>
+</article>
+<article class="wide-job">
+  <div><div class="logo-box">A</div></div>
+  <div>
+    <h3>UI/UX Designer</h3>
+    <p><strong>Adobe</strong> &middot; San Jose, CA</p>
+    <div class="meta"><span><i class="fa-solid fa-money-bill-wave"></i>$105k – $145k</span><span><i class="fa-solid fa-briefcase"></i>2–4 yrs</span><span><i class="fa-solid fa-house"></i>Hybrid</span></div>
+    <p class="description">Shape intuitive experiences that empower creative people everywhere.</p>
+    <div class="tags"><span class="tag">Figma</span><span class="tag">Research</span><span class="tag">Prototyping</span></div>
+  </div>
+  <div class="card-footer">
+    <button class="icon-btn save-btn"><i class="fa-regular fa-bookmark"></i></button>
+    <a class="btn btn-primary" href="apply/ui-ux-designer-adobe.html">Apply</a>
+  </div>
+</article>
+<article class="wide-job">
+  <div><div class="logo-box">a</div></div>
+  <div>
+    <h3>AI Engineer</h3>
+    <p><strong>Amazon</strong> &middot; Seattle, WA</p>
+    <div class="meta"><span><i class="fa-solid fa-money-bill-wave"></i>$145k – $205k</span><span><i class="fa-solid fa-briefcase"></i>4–7 yrs</span><span><i class="fa-solid fa-house"></i>Full-time</span></div>
+    <p class="description">Invent on behalf of customers by shipping intelligent, production-ready systems.</p>
+    <div class="tags"><span class="tag">Python</span><span class="tag">ML</span><span class="tag">AWS</span></div>
+  </div>
+  <div class="card-footer">
+    <button class="icon-btn save-btn"><i class="fa-regular fa-bookmark"></i></button>
+    <a class="btn btn-primary" href="apply/ai-engineer-amazon.html">Apply</a>
+  </div>
+</article>
+<article class="wide-job">
+  <div><div class="logo-box">∞</div></div>
+  <div>
+    <h3>Software Engineer</h3>
+    <p><strong>Meta</strong> &middot; Menlo Park, CA</p>
+    <div class="meta"><span><i class="fa-solid fa-money-bill-wave"></i>$145k – $195k</span><span><i class="fa-solid fa-briefcase"></i>2–5 yrs</span><span><i class="fa-solid fa-house"></i>Remote</span></div>
+    <p class="description">Create products that connect billions of people and communities around the world.</p>
+    <div class="tags"><span class="tag">Python</span><span class="tag">GraphQL</span><span class="tag">React</span></div>
+  </div>
+  <div class="card-footer">
+    <button class="icon-btn save-btn"><i class="fa-regular fa-bookmark"></i></button>
+    <a class="btn btn-primary" href="apply/software-engineer-meta.html">Apply</a>
+  </div>
+</article>
+<article class="wide-job">
+  <div><div class="logo-box">IBM</div></div>
+  <div>
+    <h3>Cloud Engineer</h3>
+    <p><strong>IBM</strong> &middot; Austin, TX</p>
+    <div class="meta"><span><i class="fa-solid fa-money-bill-wave"></i>$115k – $158k</span><span><i class="fa-solid fa-briefcase"></i>3–6 yrs</span><span><i class="fa-solid fa-house"></i>Hybrid</span></div>
+    <p class="description">Help enterprise teams modernize their infrastructure and ship with confidence.</p>
+    <div class="tags"><span class="tag">Kubernetes</span><span class="tag">Terraform</span><span class="tag">Cloud</span></div>
+  </div>
+  <div class="card-footer">
+    <button class="icon-btn save-btn"><i class="fa-regular fa-bookmark"></i></button>
+    <a class="btn btn-primary" href="apply/cloud-engineer-ibm.html">Apply</a>
+  </div>
+</article>
+<article class="wide-job">
+  <div><div class="logo-box">I</div></div>
+  <div>
+    <h3>Data Analyst</h3>
+    <p><strong>Infosys</strong> &middot; New York, NY</p>
+    <div class="meta"><span><i class="fa-solid fa-money-bill-wave"></i>$82k – $112k</span><span><i class="fa-solid fa-briefcase"></i>1–3 yrs</span><span><i class="fa-solid fa-house"></i>Full-time</span></div>
+    <p class="description">Turn complex data into clear insights that guide better business decisions.</p>
+    <div class="tags"><span class="tag">SQL</span><span class="tag">Tableau</span><span class="tag">Python</span></div>
+  </div>
+  <div class="card-footer">
+    <button class="icon-btn save-btn"><i class="fa-regular fa-bookmark"></i></button>
+    <a class="btn btn-primary" href="apply/data-analyst-infosys.html">Apply</a>
+  </div>
+</article>
+<article class="wide-job">
+  <div><div class="logo-box">A</div></div>
+  <div>
+    <h3>Cyber Security Analyst</h3>
+    <p><strong>Accenture</strong> &middot; Chicago, IL</p>
+    <div class="meta"><span><i class="fa-solid fa-money-bill-wave"></i>$98k – $135k</span><span><i class="fa-solid fa-briefcase"></i>2–5 yrs</span><span><i class="fa-solid fa-house"></i>Onsite</span></div>
+    <p class="description">Protect global organizations against emerging threats with a high-impact team.</p>
+    <div class="tags"><span class="tag">SIEM</span><span class="tag">Risk</span><span class="tag">Security</span></div>
+  </div>
+  <div class="card-footer">
+    <button class="icon-btn save-btn"><i class="fa-regular fa-bookmark"></i></button>
+    <a class="btn btn-primary" href="apply/cyber-security-analyst-accenture.html">Apply</a>
+  </div>
+</article>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="brand" href="index.html"><span class="brand-mark"><i class="fa-solid fa-briefcase"></i></span><span>Career<span>Connect</span></span></a>
+      <p>Build a career you love. Find opportunities that move you forward.</p>
+      <div class="socials"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a><a href="#"><i class="fa-brands fa-x-twitter"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
+    </div>
+    <div><h4>For Candidates</h4><a href="jobs.html">Browse Jobs</a><a href="companies.html">Explore Companies</a><a href="register.html">Create Profile</a><a href="about.html">Career Resources</a></div>
+    <div><h4>For Employers</h4><a href="employer.html">Post a Job</a><a href="employer.html">Employer Dashboard</a><a href="contact.html">Talent Solutions</a><a href="about.html">Success Stories</a></div>
+    <div><h4>Company</h4><a href="about.html">About CareerConnect</a><a href="contact.html">Contact Us</a><a href="about.html">Privacy Policy</a><a href="about.html">Terms of Service</a></div>
+  </div>
+  <div class="container footer-bottom"><span>&copy; 2026 CareerConnect. All rights reserved.</span><span><i class="fa-solid fa-shield-heart"></i> Your next chapter starts here.</span></div>
+</footer>
+<a href="#top" class="back-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+</body>
+</html>

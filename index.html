@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="CareerConnect — Find your dream job and connect with leading companies." />
+<title>CareerConnect | Find Your Dream Job Today</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="css/styles.css" />
+<script src="js/app.js" defer></script>
+</head>
+<body>
+<div class="loader-screen">
+    <div class="loader-logo"><span>Career</span>Connect</div>
+
+    <div class="loader-bar">
+        <div class="loader-progress"></div>
+    </div>
+
+    <p>Loading your next opportunity...</p>
+</div>
+<input type="checkbox" id="menu-toggle" class="menu-check" />
+<header class="navbar">
+  <a class="brand" href="index.html" aria-label="CareerConnect home">
+    <span class="brand-mark"><i class="fa-solid fa-briefcase"></i></span>
+    <span>Career<span>Connect</span></span>
+  </a>
+  <nav class="desktop-nav">
+    <a href="index.html" class="active">Home</a><a href="jobs.html">Jobs</a><a href="companies.html">Companies</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="profile.html">Profile</a><a href="employer.html">For Employers</a>
+  </nav>
+  <div class="nav-actions">
+    <a class="btn btn-ghost nav-signin" href="login.html">Sign In</a>
+    <a class="btn btn-primary nav-register" href="register.html">Register</a>
+    <label for="menu-toggle" class="menu-toggle icon-btn" aria-label="Open menu"><i class="fa-solid fa-bars"></i></label>
+  </div>
+</header>
+<label for="menu-toggle" class="mobile-menu">
+  <a href="index.html">Home</a><a href="jobs.html">Jobs</a><a href="companies.html">Companies</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+  <a href="profile.html">Profile</a><a href="employer.html">For Employers</a><a href="login.html">Sign In</a><a href="register.html">Register</a>
+</label>
+<main id="top">
+  <section class="hero">
+    <div class="shape one"></div>
+    <div class="shape two"></div>
+    <div class="container">
+      <div class="hero-copy">
+        <span class="eyebrow"><i class="fa-solid fa-sparkles"></i> The smarter way to work</span>
+        <h1>Find Your <span>Dream Job</span> Today</h1>
+        <p>Connect with top companies and explore thousands of job opportunities across multiple industries.</p>
+        <form class="search-box" action="jobs.html">
+          <label class="search-field"><i class="fa-solid fa-magnifying-glass"></i><input name="query" placeholder="Job title, keyword..."></label>
+          <label class="search-field"><i class="fa-solid fa-location-dot"></i><input name="location" placeholder="Location"></label>
+          <label class="search-field"><i class="fa-solid fa-layer-group"></i>
+            <select name="category"><option value="">All categories</option><option>Technology</option><option>Design</option><option>Analytics</option><option>Cybersecurity</option></select>
+          </label>
+          <button class="btn btn-primary" type="submit">Search Jobs</button>
+        </form>
+      </div>
+      <div class="hero-art">
+        <div class="art-card">
+          <div class="floating-card fc-one"><strong><i class="fa-solid fa-circle-check"></i>Application sent</strong><small>Frontend Developer &middot; 2m ago</small></div>
+          <div class="person"><i class="fa-solid fa-user-tie"></i></div>
+          <div class="floating-card fc-two"><strong><i class="fa-solid fa-chart-line"></i>12 new matches</strong><small>Perfect roles for you</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat"><i class="fa-solid fa-briefcase"></i><div><strong>20,000+</strong><span>Active Jobs</span></div></div>
+      <div class="stat"><i class="fa-solid fa-building"></i><div><strong>5,000+</strong><span>Companies</span></div></div>
+      <div class="stat"><i class="fa-solid fa-users"></i><div><strong>100,000+</strong><span>Registered Users</span></div></div>
+      <div class="stat"><i class="fa-solid fa-circle-check"></i><div><strong>50,000+</strong><span>Successful Hires</span></div></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div><span class="section-kicker">Curated for you</span><h2>Featured Jobs</h2><p>Opportunities from companies building the future.</p></div>
+        <a href="jobs.html" class="btn btn-outline">Browse all jobs <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="jobs-grid">
+        <article class="job-card">
+  <div class="job-top">
+    <div class="logo-box">G</div>
+    <button class="icon-btn save-btn" title="Save job"><i class="fa-regular fa-bookmark"></i></button>
+  </div>
+  <h3>Frontend Developer</h3>
+  <p>Google</p>
+  <div class="meta"><span><i class="fa-solid fa-location-dot"></i>Mountain View, CA</span><span><i class="fa-solid fa-clock"></i>Full-time</span></div>
+  <div class="salary">$135k – $175k <small>/ year</small></div>
+  <div class="card-footer"><span class="tag">2–4 yrs</span><a href="jobs/frontend-developer-google.html" class="btn btn-outline">View Job</a></div>
+</article>
+<article class="job-card">
+  <div class="job-top">
+    <div class="logo-box">M</div>
+    <button class="icon-btn save-btn" title="Save job"><i class="fa-regular fa-bookmark"></i></button>
+  </div>
+  <h3>Backend Developer</h3>
+  <p>Microsoft</p>
+  <div class="meta"><span><i class="fa-solid fa-location-dot"></i>Redmond, WA</span><span><i class="fa-solid fa-clock"></i>Full-time</span></div>
+  <div class="salary">$125k – $165k <small>/ year</small></div>
+  <div class="card-footer"><span class="tag">3–5 yrs</span><a href="jobs/backend-developer-microsoft.html" class="btn btn-outline">View Job</a></div>
+</article>
+<article class="job-card">
+  <div class="job-top">
+    <div class="logo-box">A</div>
+    <button class="icon-btn save-btn" title="Save job"><i class="fa-regular fa-bookmark"></i></button>
+  </div>
+  <h3>UI/UX Designer</h3>
+  <p>Adobe</p>
+  <div class="meta"><span><i class="fa-solid fa-location-dot"></i>San Jose, CA</span><span><i class="fa-solid fa-clock"></i>Hybrid</span></div>
+  <div class="salary">$105k – $145k <small>/ year</small></div>
+  <div class="card-footer"><span class="tag">2–4 yrs</span><a href="jobs/ui-ux-designer-adobe.html" class="btn btn-outline">View Job</a></div>
+</article>
+<article class="job-card">
+  <div class="job-top">
+    <div class="logo-box">a</div>
+    <button class="icon-btn save-btn" title="Save job"><i class="fa-regular fa-bookmark"></i></button>
+  </div>
+  <h3>AI Engineer</h3>
+  <p>Amazon</p>
+  <div class="meta"><span><i class="fa-solid fa-location-dot"></i>Seattle, WA</span><span><i class="fa-solid fa-clock"></i>Full-time</span></div>
+  <div class="salary">$145k – $205k <small>/ year</small></div>
+  <div class="card-footer"><span class="tag">4–7 yrs</span><a href="jobs/ai-engineer-amazon.html" class="btn btn-outline">View Job</a></div>
+</article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section soft-section">
+    <div class="container">
+      <div class="section-head">
+        <div><span class="section-kicker">Meet your next team</span><h2>Top Companies</h2><p>Get noticed by the organizations shaping tomorrow.</p></div>
+        <a href="companies.html" class="btn btn-outline">Explore companies <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="company-grid">
+        <article class="company-card">
+  <div class="logo-box">G</div>
+  <h3>Google</h3>
+  <p>Technology &middot; Mountain View, CA</p>
+  <a href="companies/google.html" class="btn btn-outline">2.4k jobs</a>
+</article>
+<article class="company-card">
+  <div class="logo-box">M</div>
+  <h3>Microsoft</h3>
+  <p>Technology &middot; Redmond, WA</p>
+  <a href="companies/microsoft.html" class="btn btn-outline">1.8k jobs</a>
+</article>
+<article class="company-card">
+  <div class="logo-box">a</div>
+  <h3>Amazon</h3>
+  <p>E-commerce &middot; Seattle, WA</p>
+  <a href="companies/amazon.html" class="btn btn-outline">3.1k jobs</a>
+</article>
+<article class="company-card">
+  <div class="logo-box">N</div>
+  <h3>Netflix</h3>
+  <p>Entertainment &middot; Los Gatos, CA</p>
+  <a href="companies/netflix.html" class="btn btn-outline">420 jobs</a>
+</article>
+<article class="company-card">
+  <div class="logo-box">A</div>
+  <h3>Adobe</h3>
+  <p>Creative Software &middot; San Jose, CA</p>
+  <a href="companies/adobe.html" class="btn btn-outline">380 jobs</a>
+</article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head"><div><span class="section-kicker">Simple by design</span><h2>How It Works</h2></div></div>
+      <div class="steps-grid">
+        <article class="step-card"><span class="step-num">01</span><div class="step-icon"><i class="fa-solid fa-user-plus"></i></div><h3>Create Account</h3><p>Set up your free profile in less than two minutes.</p></article>
+        <article class="step-card"><span class="step-num">02</span><div class="step-icon"><i class="fa-solid fa-id-card"></i></div><h3>Complete Profile</h3><p>Showcase your skills, experience, and ambitions.</p></article>
+        <article class="step-card"><span class="step-num">03</span><div class="step-icon"><i class="fa-solid fa-magnifying-glass"></i></div><h3>Search Jobs</h3><p>Discover roles matched to your unique goals.</p></article>
+        <article class="step-card"><span class="step-num">04</span><div class="step-icon"><i class="fa-solid fa-paper-plane"></i></div><h3>Apply Instantly</h3><p>Apply with confidence and track every application.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section soft-section">
+    <div class="container">
+      <div class="section-head"><div><span class="section-kicker">More than a job board</span><h2>Why Choose Us</h2></div></div>
+      <div class="feature-grid">
+        <article class="feature-card"><i class="fa-solid fa-shield-check"></i><div><h3>Verified Companies</h3><p>Every employer is reviewed so you can apply with confidence.</p></div></article>
+        <article class="feature-card"><i class="fa-solid fa-bolt"></i><div><h3>Instant Applications</h3><p>One profile, faster applications, more momentum.</p></div></article>
+        <article class="feature-card"><i class="fa-solid fa-file-lines"></i><div><h3>Resume Builder</h3><p>Create a polished resume that gets noticed.</p></div></article>
+        <article class="feature-card"><i class="fa-solid fa-wand-magic-sparkles"></i><div><h3>Smart Job Search</h3><p>Personalized matches based on what matters to you.</p></div></article>
+        <article class="feature-card"><i class="fa-solid fa-headset"></i><div><h3>24/7 Support</h3><p>Real people and useful resources whenever you need them.</p></div></article>
+        <article class="feature-card"><i class="fa-solid fa-compass"></i><div><h3>Career Guidance</h3><p>Practical insights for every stage of your career.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head"><div><span class="section-kicker">Real people, real progress</span><h2>Success Stories</h2></div></div>
+      <div class="testimonials">
+        <article class="testimonial"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;CareerConnect helped me find a role where my work actually makes an impact. The entire process felt effortless.&rdquo;</p><div class="person-row"><div class="avatar">JD</div><div><strong>Jordan Davis</strong><small>Product Designer</small></div></div></article>
+        <article class="testimonial"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;I went from browsing to signing an offer in three weeks. The match quality is incredible.&rdquo;</p><div class="person-row"><div class="avatar">AM</div><div><strong>Ava Martinez</strong><small>Software Engineer</small></div></div></article>
+        <article class="testimonial"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;The profile tools helped me tell my story better and connect with a team I admire.&rdquo;</p><div class="person-row"><div class="avatar">RK</div><div><strong>Ryan Kim</strong><small>Marketing Lead</small></div></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container newsletter">
+      <div><span class="section-kicker news-kicker">Stay in the loop</span><h2>Get career inspiration in your inbox.</h2><p>Weekly opportunities, practical advice, and stories to help you move forward.</p></div>
+      <form class="newsletter-form"><input type="email" placeholder="Your email address" required><button class="btn btn-orange" type="submit">Subscribe</button></form>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="brand" href="index.html"><span class="brand-mark"><i class="fa-solid fa-briefcase"></i></span><span>Career<span>Connect</span></span></a>
+      <p>Build a career you love. Find opportunities that move you forward.</p>
+      <div class="socials"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a><a href="#"><i class="fa-brands fa-x-twitter"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
+    </div>
+    <div><h4>For Candidates</h4><a href="jobs.html">Browse Jobs</a><a href="companies.html">Explore Companies</a><a href="register.html">Create Profile</a><a href="about.html">Career Resources</a></div>
+    <div><h4>For Employers</h4><a href="employer.html">Post a Job</a><a href="employer.html">Employer Dashboard</a><a href="contact.html">Talent Solutions</a><a href="about.html">Success Stories</a></div>
+    <div><h4>Company</h4><a href="about.html">About CareerConnect</a><a href="contact.html">Contact Us</a><a href="about.html">Privacy Policy</a><a href="about.html">Terms of Service</a></div>
+  </div>
+  <div class="container footer-bottom"><span>&copy; 2026 CareerConnect. All rights reserved.</span><span><i class="fa-solid fa-shield-heart"></i> Your next chapter starts here.</span></div>
+</footer>
+<a href="#top" class="back-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+</body>
+</html>
